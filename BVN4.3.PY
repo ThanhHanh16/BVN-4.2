@@ -3,7 +3,7 @@ p, q, e = 17, 23, 5
 n = p * q
 
 def char_to_num(ch):
-    return ord(ch) - ord('A') + 1
+    return ord(ch) - ord('A')
 
 def num_to_char(num):
     return chr((num - 1) % 26 + ord('A'))
@@ -24,3 +24,4 @@ print("Plaintext:", text)
 print("Plain numbers:", plain_nums)
 print("Cipher numbers:", cipher_nums)
 print("Cipher text:", cipher_text)
+
